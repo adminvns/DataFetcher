@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text=" Click to Fetch Data"
+        android:layout_margin="8dp"
+        android:id="@+id/buttonFetch"
+        />
+
+    <ProgressBar
+        android:layout_below="@id/buttonFetch"
+        android:id="@+id/prog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
+   <ScrollView
+       android:layout_below="@id/buttonFetch"
+       android:layout_width="match_parent"
+       android:padding="5dp"
+       android:layout_margin="5dp"
+       android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/fetchedData"
+    android:layout_width="match_parent"
+    android:text="DATA EMPTY"
+    android:layout_margin="5dp"
+    android:textSize="20sp"
+    android:layout_height="wrap_content" />
+
+   </ScrollView>
+
+</RelativeLayout>
