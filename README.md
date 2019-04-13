@@ -1,6 +1,6 @@
 # DataFetcher
-* This is a sample JSON file fethcing application(Srever).
+* This is a sample JSON file fethcing application(Server).
 * Custom JSON-API used from MyJSON
 * Progress Bar added 
 * API Link- http://myjson.com/u7ubo
-* Create your now - http://myjson.com/
+* Create yours at - http://myjson.com/
